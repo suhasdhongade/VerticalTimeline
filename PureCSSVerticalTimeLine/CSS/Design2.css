@@ -1,0 +1,117 @@
+﻿body {
+    background: rgba(49,71,85,1);
+    background: -moz-linear-gradient(45deg, rgba(49,71,85,1) 7%, rgba(47,89,112,1) 14%, rgba(38,160,218,1) 42%, rgba(38,160,218,1) 62%);
+    background: -webkit-gradient(left bottom, right top, color-stop(7%, rgba(49,71,85,1)), color-stop(14%, rgba(47,89,112,1)), color-stop(42%, rgba(38,160,218,1)), color-stop(62%, rgba(38,160,218,1)));
+    background: -webkit-linear-gradient(45deg, rgba(49,71,85,1) 7%, rgba(47,89,112,1) 14%, rgba(38,160,218,1) 42%, rgba(38,160,218,1) 62%);
+    background: -o-linear-gradient(45deg, rgba(49,71,85,1) 7%, rgba(47,89,112,1) 14%, rgba(38,160,218,1) 42%, rgba(38,160,218,1) 62%);
+    background: -ms-linear-gradient(45deg, rgba(49,71,85,1) 7%, rgba(47,89,112,1) 14%, rgba(38,160,218,1) 42%, rgba(38,160,218,1) 62%);
+    background: linear-gradient(45deg, rgba(49,71,85,1) 7%, rgba(47,89,112,1) 14%, rgba(38,160,218,1) 42%, rgba(38,160,218,1) 62%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#314755', endColorstr='#26a0da', GradientType=1 );
+}
+
+}
+
+timeLineContainer {
+    height: 120vh;
+    font-family: 'Open Sans', sans-serif;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#bea2e7+0,86b7e7+100 */
+    /*background: url(../img/pw_maze_black_2X.png) left top repeat;*/
+}
+
+.timeLineContainer ul {
+    list-style: none;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1px 50px;
+    color: rgba(49,71,85,1);
+    font-size: 13px;
+}
+
+    .timeLineContainer ul:before {
+        content: '';
+        width: 1px;
+        height: 100%;
+        position: absolute;
+        border-left: 2px dashed #fff;
+    }
+
+    .timeLineContainer ul li {
+        position: relative;
+        margin-left: -200px;
+        background-color: rgb(255, 255, 255);
+        padding: 14px;
+        border-radius: 6px;
+        width: 400px;
+        -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+        border: 0px solid #000000;
+    }
+
+        .timeLineContainer ul li:not(:first-child) {
+            margin-top: 120px;
+        }
+               
+
+            .timeLineContainer ul li > span:before, .timeLineContainer ul li > span:after {
+                content: '';
+                width: 12px;
+                height: 12px;
+                border-radius: 30%;
+                border: 2px solid #fff;
+                position: absolute;
+                background: rgba(49,71,85,1);
+                left: 193px;
+                top: -18%;
+            }
+
+        .timeLineContainer ul li span:after {
+            top: 100%;
+        }
+
+        .timeLineContainer ul li > div {
+            margin-left: 10px;
+        }
+
+.timeLineContainer div .title {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.timeLineContainer div .type {
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.timeLineContainer div .info {
+    font-weight: 300;
+}
+
+.timeLineContainer div > div {
+    margin-top: 5px;
+}
+
+.timeLineContainer span.number {
+    height: 100%;
+    color: indigo;
+}
+
+    .timeLineContainer span.number span {
+        position: absolute;
+        font-size: 15px;
+        left: 220px;
+        font-weight: bold;
+        width: 140px;
+        text-align: left;
+        color: rgba(49,71,85,1);
+    }
+
+        .timeLineContainer span.number span:first-child {
+            top: -20%;
+        }
+
+        .timeLineContainer span.number span:last-child {
+            top: 100%;
+        }

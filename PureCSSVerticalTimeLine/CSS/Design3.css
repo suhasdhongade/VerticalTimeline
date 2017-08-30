@@ -1,0 +1,98 @@
+﻿body {
+    background: rgba(241,231,103,1);
+    background: -moz-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(241,231,103,1)), color-stop(100%, rgba(254,182,69,1)));
+    background: -webkit-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+    background: -o-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+    background: -ms-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+    background: linear-gradient(to right, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645', GradientType=1 );
+}
+
+timeLineContainer {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.timeLineContainer ul {
+    list-style: none;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    padding: 1px 50px;
+    color: rgba(49,71,85,1);
+    font-size: 13px;
+}
+
+    .timeLineContainer ul li {
+        position: relative;
+        margin-left: -200px;
+        background-color: rgb(255, 255, 255);
+        padding: 14px;
+        border-radius: 6px;
+        width: 200px;
+        height: 200px;
+        border-radius: 0px 200px 200px 0px;
+        border-radius: 200px 200px 200px 200px;
+        -moz-border-radius: 200px 200px 200px 200px;
+        -webkit-border-radius: 200px 200px 200px 200px;
+        border: 0px solid #000000;
+        text-align: center;
+    }
+
+        .timeLineContainer ul li:first-child {
+            margin-top: -70px;
+        }
+
+        .timeLineContainer ul li:not(:first-child) {
+            margin-top: -100px;
+        }
+
+
+        .timeLineContainer ul li:nth-child(odd) {
+            background: rgba(226,226,226,1);
+            background: -moz-linear-gradient(-45deg, rgba(226,226,226,1) 0%, rgba(209,209,209,1) 51%, rgba(219,219,219,1) 58%, rgba(254,254,254,1) 100%);
+            background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(226,226,226,1)), color-stop(51%, rgba(209,209,209,1)), color-stop(58%, rgba(219,219,219,1)), color-stop(100%, rgba(254,254,254,1)));
+            background: -webkit-linear-gradient(-45deg, rgba(226,226,226,1) 0%, rgba(209,209,209,1) 51%, rgba(219,219,219,1) 58%, rgba(254,254,254,1) 100%);
+            background: -o-linear-gradient(-45deg, rgba(226,226,226,1) 0%, rgba(209,209,209,1) 51%, rgba(219,219,219,1) 58%, rgba(254,254,254,1) 100%);
+            background: -ms-linear-gradient(-45deg, rgba(226,226,226,1) 0%, rgba(209,209,209,1) 51%, rgba(219,219,219,1) 58%, rgba(254,254,254,1) 100%);
+            background: linear-gradient(135deg, rgba(226,226,226,1) 0%, rgba(209,209,209,1) 51%, rgba(219,219,219,1) 58%, rgba(254,254,254,1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=1 );
+            animation: fadeInRightBig 2s ease-in-out alternate;
+        }
+
+        .timeLineContainer ul li:nth-child(even) {
+            margin-left: -25px;
+            color: white;
+            background: rgba(248,80,50,1);
+            background: -moz-linear-gradient(-45deg, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 33%, rgba(231,56,39,1) 100%);
+            background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(248,80,50,1)), color-stop(33%, rgba(241,111,92,1)), color-stop(100%, rgba(231,56,39,1)));
+            background: -webkit-linear-gradient(-45deg, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 33%, rgba(231,56,39,1) 100%);
+            background: -o-linear-gradient(-45deg, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 33%, rgba(231,56,39,1) 100%);
+            background: -ms-linear-gradient(-45deg, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 33%, rgba(231,56,39,1) 100%);
+            background: linear-gradient(135deg, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 33%, rgba(231,56,39,1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', endColorstr='#e73827', GradientType=1 );
+            animation: fadeInLeftBig 2s ease-in-out alternate;
+        }
+
+        .timeLineContainer ul li > div {
+            margin-left: 10px;
+        }
+
+.timeLineContainer div .title {
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 20%;
+}
+
+.timeLineContainer div .type {
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.timeLineContainer div .info {
+    font-weight: 300;
+}
+
+.timeLineContainer div > div {
+    margin-top: 5px;
+}
